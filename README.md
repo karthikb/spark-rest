@@ -1,5 +1,17 @@
 # This page is all about Company REST API
 
+This application is developed in Java using Spark MVC framework and is deployed
+in heroku and can be accessed in this url - http://spark-rest.herokuapp.com
+
+1. Bootstrap.java - is the entry point for the application
+2. CompanyController - is the controller class and here you can see the routing rules
+3. CompanyService - is the service class
+4. Company - is the domain class
+5. Employee - is the domain class
+6. JsonUtil - utility class
+7. ResponseError - used to throw generic response error
+
+
 **Get a list of all companies**
 ```
 curl --request GET http://localhost:4567/api/v1/companies
